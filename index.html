@@ -9,9 +9,10 @@
 </head>
 <body>
     <h1>Awesome Books</h1>
+    <div id="book-list">
     <div>
-        <h2>lorem ipsum</h2>
-        <h2>testeroo testyy</h2>
+        <h2S>lorem ipsum</h2>
+        <p>testeroo testyy</p>
         <button>Remove</button>
         <hr>
     </div>
@@ -21,11 +22,14 @@
         <button>Remove</button>
         <hr>
     </div>
-    <div>
-        <input type="text" >
-        <input type="text">
-        <button> add</button>
     </div>
+    <form id="book-form">
+        <input type="text", placeholder="Title", id="title" >
+        <br>
+        <input type="text", placeholder="Author", id="author">
+        <br>
+        <button type="submit"> add</button>
+    </form>
     <script src="obj.js"></script>
 </body>
 </html>
